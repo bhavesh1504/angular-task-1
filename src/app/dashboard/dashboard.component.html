@@ -1,0 +1,113 @@
+  <div>
+    <img class="class1" [src]="img">
+    <div class="centered">
+      <h1 class="h1">Discover your journey</h1>
+      <h2 class="h2">Discover 4500+ Courses from top Instructors Around the World</h2>
+      <h3 class="h3">Take your learning organization to the next level. to the next level. Who'll share their knowledge to people around the world.</h3>
+      <button type="button" class="btn btn btn-primary">View all Courses</button>
+    </div>
+  </div>
+
+<div class="cardclass">
+  <h2 class="h2class">Discover World's Best Courses</h2>
+  <div class="card-top container-fluid mb-3">
+    <div class="container d-flex">
+
+        <div class="item">
+          <h6 class="item1" (click)="switchTabs('all')">View All</h6>
+        </div>
+
+        <div class="item">
+            <h6 class="item1" (click)="switchTabs('development')">Development</h6>
+        </div>
+        <div class="item">
+            <h6 class="item1" (click)="switchTabs('business')">Business</h6>
+        </div>
+        <div class="item">
+            <h6 class="item1" (click)="switchTabs('lifestyle')">Lifestyle</h6>          
+        </div>
+    </div>
+</div>
+  <div class="">
+    <div class="container">
+      <div class="row hidden-md-up d-flex">
+        <div class="col-md-4 mb-2"  *ngIf="development">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Development</h3>
+              <h4 class="card-subtitle text-muted">Full Stack Developer</h4>
+              <p class="card-text p-y-1">Learn Full Stack And Become Professional...</p>
+              <button class="button" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  mb-2" *ngIf="development">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Development</h3>
+              <h4 class="card-subtitle text-muted">Software Engineer</h4>
+              <p class="card-text p-y-1">Learn SDL Level Software Development...</p>
+              <button class="button" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  mb-2" *ngIf="business">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Business</h3>
+              <h4 class="card-subtitle text-muted">Ethics Of Business</h4>
+              <p class="card-text p-y-1">All About Business In One Course...</p>
+              <button class="button" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <div class="col-md-4  mb-2" *ngIf="business">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Business</h3>
+              <h4 class="card-subtitle text-muted">Quit 9 To 7</h4>
+              <p class="card-text p-y-1">Make Your 1st 1 Crore...</p>
+              <button class="button" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  mb-2" *ngIf="lifestyle">
+          <div class="card" >
+            <div class="card-block">
+              <h3 class="card-title">Lifestyle</h3>
+              <h4 class="card-subtitle text-muted">Fashion And More</h4>
+              <p class="card-text p-y-1">All about Fashion in one Course...</p>
+              <button class="button" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  mb-2" *ngIf="lifestyle">
+          <div class="card" >
+            <div class="card-block">
+              <h3 class="card-title">Lifestyle</h3>
+              <h4 class="card-subtitle text-muted">New Era Of Fashion</h4>
+              <p class="card-text p-y-1">New Era of Fashion Learn how to style...</p>
+              <button class="button" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  
+<div class="row d-flex">
+  <div class="col-sm-6 col-md-4 ">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vel! Eligendi, numquam nam. Saepe voluptates cupiditate voluptatibus aperiam at! Quae nemo aut corporis deleniti, exercitationem ipsum saepe! Fugiat, maxime autem.</p>
+  </div>
+  <div class="col-sm-2 col-md-4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vel! Eligendi, numquam nam. Saepe voluptates cupiditate voluptatibus aperiam at! Quae nemo aut corporis deleniti, exercitationem ipsum saepe! Fugiat, maxime autem.</p>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vel! Eligendi, numquam nam. Saepe voluptates cupiditate voluptatibus aperiam at! Quae nemo aut corporis deleniti, exercitationem ipsum saepe! Fugiat, maxime autem.</p>
+  </div>
+  
+</div> -->
+<!-- <app-root></app-root> -->
